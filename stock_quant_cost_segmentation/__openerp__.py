@@ -2,28 +2,25 @@
 
 {
     "name": "Stock Quant Cost Segmentation",
-    "version": "1.0",
+    "version": "8.0.1.0.0",
     "author": "Vauxoo",
     "category": "Tools",
     "website": "http://www.vauxoo.com/",
     "license": "AGPL-3",
     "depends": [
         "base",
+        "product",
         "stock",
+        "stock_account",
+        "stock_move_entries",
         "purchase",
-        "mrp",
     ],
     "demo": [
+        'demo/stock.xml',
     ],
     "data": [
         'view/view.xml',
     ],
-    "test": [],
-    "js": [],
-    "css": [],
-    "qweb": [],
     "installable": True,
     "auto_install": False,
-    "external_dependencies": {
-    }
 }
